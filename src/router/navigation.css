@@ -1,0 +1,34 @@
+.logo {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 20% 20% auto 20% 20%;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "../src/components/Header";
+import Navigation from "../src/router/Navigation";
 
 const App = () => (
   <div>
-    <h1>Testing portfolio</h1>
+    <Navigation />
   </div>
 );
 export default App;
